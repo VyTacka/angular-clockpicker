@@ -136,13 +136,15 @@ describe('The angular-clockpicker module', function() {
     it('should merge given options with default options', function() {
       this.options = {
         twelvehour: false,
-        autoclose: true
+        autoclose: true,
+        local: true
       };
 
       this.initDirective();
       expect(this.directiveElement.clockpicker).to.have.been.calledWith({
         twelvehour: false,
         autoclose: true,
+        local: true,
         donetext: 'ok' });
     });
 
