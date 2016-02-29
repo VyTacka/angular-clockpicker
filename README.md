@@ -20,12 +20,16 @@ Moreover if you set nativeOnMobile in clockpicker-options, on mobile devices the
 Changelog
 =========
 
-1.0.0
+1.2.0
 
-* Renaming clockpicker-wrapper directive into lng-clockpicker
+* Add `local` option for disabling local time (in case you want to use UTC)
 
 1.1.0
 
 * Add nativeOnMobile options in order to delegate to system timepicker on mobile devices
 
 * Correct update of view on mutation of moment date
+
+1.0.0
+
+* Renaming clockpicker-wrapper directive into lng-clockpicker
